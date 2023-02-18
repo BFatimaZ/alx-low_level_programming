@@ -1,5 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+/**
+ * main - Program check 0-positive_or_negative
+ * Return: 0 (Success)
+ */
+
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
