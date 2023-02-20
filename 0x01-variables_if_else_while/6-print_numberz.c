@@ -10,8 +10,8 @@ int main(void)
 	n = 0;
 	while (n < 10)
 		{
-			putchar(n+'0');
-			c++;
+			putchar(n + '0');
+			n++;
 		}
 	putchar('\n');
 	return (0);
