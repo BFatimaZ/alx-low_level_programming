@@ -18,7 +18,7 @@ int n, m, l;
 					putchar(n + '0');
 					putchar(m + '0');
 					putchar(l + '0');
-					if (n != 55 || m != 56)
+					if (n != 7 || m != 8)
 					{
 						putchar(',');
 						putchar(' ');
