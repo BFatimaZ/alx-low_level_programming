@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -12,8 +13,8 @@ int main(void)
 	n = sizeof(ch) / sizeof(int);
 	for (i = 0; i < n; i++)
 	{
-		putchar(ch[i]);
+		_putchar(ch[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
