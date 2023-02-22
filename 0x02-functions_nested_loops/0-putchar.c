@@ -12,7 +12,7 @@ int main(void)
 	n = sizeof(ch) / sizeof(int);
 	for (i = 0; i < n; i++)
 	{
-		_putchar(ch[i]);
+		putchar(ch[i]);
 	}
 	_putchar('\n');
 	return (0);
