@@ -1,0 +1,1 @@
+# Tasks of 0x05-pointers_arrays_strings: C - Pointers, arrays and strings
