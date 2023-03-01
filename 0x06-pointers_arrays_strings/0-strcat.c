@@ -9,8 +9,9 @@ char *_strcat(char *dest, const char *src)
 {
 	int i = 0, dest_L = 0;
 
-	while (dest[i++])
+	while (dest[i++ != '\0'])
 		dest_L++;
+	desr_L++;
 	for (i = 0; src[i]; i++)
 		dest[dest_L++] = src[i];
 	return (dest);
