@@ -1,17 +1,19 @@
 #include "main.h"
 /**
- * * _memset - Fills the first n bytes of the memory are with @b.
+ * _memset - Fills the first n bytes of the memory are with @b.
  * @s: Pointer to be filled.
  * @b: Character to fill the memory area with.
  * @n: Number of bytes to be filled.
- * Return:@s.
+ * Return: changed array with new value for n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-int i;
+	int i = 0;
 
-for (i = 0; i < n; i++)
-s[i] = b;
-return (s);
+	for (; n > 0; i++)
+	{
+		s[i] = b;
+		n--;
+	}
+	return (s);
 }
-
